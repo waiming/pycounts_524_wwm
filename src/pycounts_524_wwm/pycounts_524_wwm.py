@@ -22,7 +22,7 @@ def load_text(input_file):
     with open(input_file, "r") as file:
         text = file.read()
     return text
-    
+
 def clean_text(text):
     """Lowercase and remove punctuation from a string.
 
@@ -45,7 +45,7 @@ def clean_text(text):
     for p in punctuation:
         text = text.replace(p, "")
     return text
-    
+
 def count_words(input_file):
     """Count words in a text file.
 
