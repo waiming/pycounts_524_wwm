@@ -1,4 +1,4 @@
-from pycounts_524_wwm.pycounts import count_words
+from pycounts_524_wwm.pycounts_524_wwm import count_words
 from collections import Counter
 
 def test_count_words():
